@@ -1,7 +1,7 @@
 # edgar-analytics
 
-1. [General Overview] (https://github.com/kruti3/edgar-analytics/blob/master/README.md#general-overview)
-2. [Instructions] (https://github.com/kruti3/edgar-analytics/blob/master/README.md#instructions-to-run-the-code)
+1. [General Overview](https://github.com/kruti3/edgar-analytics/blob/master/README.md#general-overview)
+2. [Instructions](https://github.com/kruti3/edgar-analytics/blob/master/README.md#instructions-to-run-the-code)
 
 # General Overview
 
