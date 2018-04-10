@@ -2,9 +2,6 @@
 
 Instructions to run the code
 
-1. git clone https://github.com/kruti3/edgar-analytics.git
-2. cd edgar-analytics
-3. chmod 755 run.sh
-4. ./run.sh
-
-Instructions to run the tests: insight_testsuite/README.md
+1. cd insight_testsuite
+2. chmod 755 run_tests.sh
+3. ./run_tests.sh
