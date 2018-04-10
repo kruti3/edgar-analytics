@@ -1,0 +1,1 @@
+python src/processdata.py --input=log.csv --timeout=inactivity_period.txt --output=sessionization.txt
