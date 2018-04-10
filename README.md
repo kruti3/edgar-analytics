@@ -1,19 +1,16 @@
 # edgar-analytics
 
-1. [General Overview]
-2. [Instructions]
+1. [General Overview] (https://github.com/kruti3/edgar-analytics/blob/master/README.md#general-overview)
+2. [Instructions] (https://github.com/kruti3/edgar-analytics/blob/master/README.md#instructions-to-run-the-code)
 
 # General Overview
 
 The solution implementation to this problem is similar to that of LRU cache. A queue and a map is maintained to keep a
 track of incoming sessions in order and session object data details respectively at each instant.
 
-At the start of processing at the second of time, the expired sessions are given to the output, batch wise. Each batch
-denotes all sessions with last session time at the second of time. The removal of expired sessions is done by
-maintaining a variable which denotes the last batch time processed and comparing it continually with incoming data.
+A batch is defined as all sessions with last session time recorded at a particular second of time. Before processing a incoming batch, the expired sessions of previous batch(es) are removed. This is done by maintaining a variable which denotes the last session time associated with the batch and comparing it continually with incoming data to identify reduntant batches in data structures. The expired sessions are formatted to be written to the output and respective data is cleared from the data structures.
 
-At the end, all the sessions remaining in the data structures is then sorted by first session time and then last session
-time, and then formatted to the output file.
+At the end of processing the entire input stream, few sessions remain in the data structures. These are then sorted by first session time and then last session time, and then formatted to the output file.
 
 # Instructions to run the code
 
